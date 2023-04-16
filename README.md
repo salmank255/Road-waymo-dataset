@@ -91,10 +91,10 @@ The first level of `road_trainval_v1.0.json` contains dataset level information 
 
 Finally, the `db` field contains all `frame` and `tube` level annotations for all the videos:
 
-- To access annotation for a vides, use db['2014-06-25-16-45-34_stereo_centre_02'], where `'2014-06-25-16-45-34_stereo_centre_02'` is name of a video.
+- To access annotation for a vides, use db['Train_00000'], where `'Train_00000'` is name of a video.
 - Each video annotation comes with following fields
     - `['split_ids', 'agent_tubes', 'action_tubes', 'loc_tubes', 'duplex_tubes', 'triplet_tubes', 'av_action_tubes', 'frame_labels', 'frames', 'numf']`
-    - `split_ids` contains the split id assigned this videos out of `'test', 'train_1','val_1',........'val_3'`. 
+    - `split_ids` contains the split id assigned this videos out of `'test', 'train', and 'val'`. 
     - `numf` is number of frames in the video.
     - `frame_labels` is AV-action class ids assigned for each frame of the videos. 
     - `frames` contains frame-level annotations
@@ -108,7 +108,7 @@ Finally, the `db` field contains all `frame` and `tube` level annotations for al
             - `tube_uid` id of the agent tube it belongs.
             - fields ending with `_ids` contains class ids of respective label type.
     - The fields ending `tubes` contains tube-level annotation of respective label-type. 
-        - for example, `db['2014-06-25-16-45-34_stereo_centre_02']['agent_tubes']` contains tubes with fields like `['544e13cc-001-01', 'a074d1bf-001-01', 'e97b3e4c-001-01', 'edb6d66a-005-01', .........]`
+        - for example, `db['Train_00000']['agent_tubes']` contains tubes with fields like `['544e13cc-001-01', 'a074d1bf-001-01', 'e97b3e4c-001-01', 'edb6d66a-005-01', .........]`
         - each tube has following fields `dict_keys(['label_id', 'annos'])`
             - `label_id` is class id from respective label type.
             - `annos` is dictinary with keys made of frame_ids, e.g. `['agent_tubes']['10284a58-002-01']['annos'].keys()` >> `dict_keys(['4585', '4586', ......, '4629', '4630'])`
