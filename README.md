@@ -9,11 +9,11 @@ The structure of our ROAD++ is exactly similar to our [ROAD dataset](https://git
 - Action annotations for human as well as other road agents, e.g. Turning-right, Moving-away etc. 
 - Agent type labels, e.g. Pedestrian, Car, Cyclist, Large-Vehicle, Emergency-Vehicle etc.
 - Semantic location labels of the location of agent, e.g. in vehicle lane, in right pavement etc.
-- 198K frames from 1000 videos annotated, each video is 20 seconds long on an average.
+- **198K** frames from **1000** videos annotated, each video is 20 seconds long on an average.
 - track/tube id annotated for every bounding box on every frame for every agent in the scene.
-- 54K tubes/tracks of individual agents.
-- 3.9M bounding  box-level agent  labels.
-- 4.3M and 4.2M bounding box-level action and location labels.
+- **54K** tubes/tracks of individual agents.
+- **3.9M** bounding  box-level agent  labels.
+- **4.3M** and **4.2M** bounding box-level action and location labels.
 
 ## Attribution
 ROAD++ dataset is build upon [WAYMO Open Dataset](https://waymo.com/open/). If you find the original dataset useful in your work, please cite it using the citation that can be found [here](https://arxiv.org/pdf/1912.04838.pdf). 
