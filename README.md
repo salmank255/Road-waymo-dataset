@@ -54,24 +54,23 @@ python extract_videos2jpgs.py <path-to-road-folder>/roadpp/
 Now, the `roadpp` directory should look like this:
 
 ```
-    roadpp/
-        - road_plus_plus_trainval_v1.0.json
-        - videos/
-            - Train_00000.mp4
-            - Train_00001.mp4
-            - ........
-        - rgb-images
-            - Train_00000/
-                - 00001.jpg
-                - 00002.jpg
-                - .........*.jpg
-            - Train_00001/
-                - 00001.jpg
-                - 00002.jpg
-                - .........*.jpg
-            - ......../
-                - ........*.jpg
-
+roadpp
+├── road_plus_plus_trainval_v1.0.json
+├── videos
+    ├── Train_00000.mp4
+    ├── Train_00001.mp4
+    ├── ...
+├── rgb-images
+    ├── Train_00000
+        ├── 00001.jpg
+        ├── 00002.jpg
+        ├── ...
+    ├── Train_00001
+        ├── 00001.jpg
+        ├── 00002.jpg
+        ├── ...
+    ├── ...
+        
 ```
 ## Annotation Structure
 
