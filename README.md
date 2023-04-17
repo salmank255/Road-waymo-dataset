@@ -77,7 +77,7 @@ Now, the `roadpp` directory should look like this:
 
 The annotations for the train and validation split are saved in single `json` file named `road_plus_plus_trainval_v1.0.json`, which is located under root directory of the dataset as it can be seen above.
 
-The first level of `road_trainval_v1.0.json` contains dataset level information like classes of each label type:
+The first level of `road_plus_plus_trainval_v1.0.json` contains dataset level information like classes of each label type:
 
 - Here are all the fields: `dict_keys(['all_input_labels', 'all_av_action_labels', 'av_action_labels', 'agent_labels', 'action_labels', 'duplex_labels', 'triplet_labels', 'loc_labels', 'db', 'label_types', 'all_duplex_labels', 'all_triplet_labels', 'all_agent_labels', 'all_loc_labels', 'all_action_labels', 'duplex_childs', 'triplet_childs'])`
 - `all_input_labels`: All classes used to annotate the dataset
