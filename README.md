@@ -48,7 +48,7 @@ Before extracting the frames, you will need to make sure that you have `ffmpeg` 
 
 You can now use `extract_videos2jpgs.py` to extract the frames. You will need to provide the path to the `roadpp` folder as an argument:
 ```
-python extract_videos2jpgs.py <path-to-road-folder>/roadpp/
+python extract_videos2jpgs.py <path-to-road-folder>/road_waymo/
 ```
 
 Now, the `roadpp` directory should look like this:
