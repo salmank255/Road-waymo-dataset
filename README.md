@@ -120,3 +120,4 @@ Now that you have the dataset and are familiar with its structure, you are ready
 You can find the **evaluation** functions in [modules/evaluation.py](https://github.com/salmank255/ROAD_plus_plus_Baseline/blob/master/modules/evaluation.py).
 
 ## Plotting annotations
+![](plot.gif)
