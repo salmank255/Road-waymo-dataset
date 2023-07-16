@@ -27,7 +27,7 @@ BY DOWNLOADING THE DATASET VIDEOS YOU ARE BOUNDED TO ADHERE TO PRIVACY GUIDELINE
 
 We release the annotations created by [Visual Artificial Intelligence Laboratory](https://cms.brookes.ac.uk/staff/FabioCuzzolin/), and the sub-set video (Frontal only) from [WAYMO](https://waymo.com/open/terms/). 
 
-The videos and annotations are private due to [WAYMO](https://waymo.com/open/terms/) privacy policy and can be downloaded after accepting their terms & conditions and requesting for the access to our [gdrive](https://drive.google.com/drive/folders/1ye2vk9ExPi22vDsvnc-XgXtgNRL2IteN?usp=share_link).
+The videos and annotations are private due to [WAYMO](https://waymo.com/open/terms/) privacy policy and can be downloaded after accepting their terms & conditions ...(will add the link to data soon).
 
 ## Frame-extraction
 
