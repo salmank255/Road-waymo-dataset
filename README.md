@@ -27,16 +27,16 @@ BY DOWNLOADING THE DATASET VIDEOS YOU ARE BOUNDED TO ADHERE TO PRIVACY GUIDELINE
 
 We release the annotations created by [Visual Artificial Intelligence Laboratory](https://cms.brookes.ac.uk/staff/FabioCuzzolin/), and the sub-set video (Frontal only) from [WAYMO](https://waymo.com/open/terms/). 
 
-The videos and annotations are available in the Community Contributions section of [Waymo Open Dataset](https://waymo.com/open/) and can be downloaded Community Contributions section of [WAYMO Download](https://waymo.com/open/download/).
+The videos and annotations are available in the Community Contributions section of [Waymo Open Dataset](https://waymo.com/open/) and can be downloaded from the Community Contributions section of [WAYMO Download](https://waymo.com/open/download/).
 
 
 ## Frame-extraction
 
-The **baseline code** for [ROAD++](https://github.com/salmank255/ROAD_plus_plus_Baseline) uses sequences of frames as input. Once you have downloaded the videos from Google-Drive, create a folder name `roadpp` and put the annotations under it, then create another folder named `videos` under `roadpp` folder, and put all the videos under the folder named `videos`. Now, your folder structure should look like this:
+The **baseline code** for [ROAD++](https://github.com/salmank255/ROAD_plus_plus_Baseline) uses sequences of frames as input. Once you have downloaded the videos from Waymo open website, create a folder name `road-waymo` and put the annotations under it, then create another folder named `videos` under `road-waymo` folder, and put all the videos under the folder named `videos`. Now, your folder structure should look like this:
 
 ```
-    roadpp/
-        - road_plus_plus_trainval_v1.0.json
+    road-waymo/
+        - road_waymo_trainval_v1.0.json
         - videos/
             - Train_00000.mp4
             - Train_00001.mp4
@@ -47,16 +47,16 @@ The **baseline code** for [ROAD++](https://github.com/salmank255/ROAD_plus_plus_
 
 Before extracting the frames, you will need to make sure that you have `ffmpeg` installed on your machine or your python should include its binaries. If you are using Ubuntu, the following command should be sufficient: `sudo apt install ffmpeg`.
 
-You can now use `extract_videos2jpgs.py` to extract the frames. You will need to provide the path to the `roadpp` folder as an argument:
+You can now use `extract_videos2jpgs.py` to extract the frames. You will need to provide the path to the `road-waymo` folder as an argument:
 ```
 python extract_videos2jpgs.py <path-to-road-folder>/road_waymo/
 ```
 
-Now, the `roadpp` directory should look like this:
+Now, the `road-waymo` directory should look like this:
 
 ```
-roadpp
-├── road_plus_plus_trainval_v1.0.json
+road-waymo
+├── road_waymo_trainval_v1.0.json
 ├── videos
     ├── Train_00000.mp4
     ├── Train_00001.mp4
@@ -116,7 +116,7 @@ Finally, the `db` field contains all `frame` and `tube` level annotations for al
 
 ## Evaluation
 
-Now that you have the dataset and are familiar with its structure, you are ready to train or test [ROAD++ baseline](https://github.com/salmank255/ROAD_plus_plus_Baseline), which contains a dataloader class and evaluation scripts required for all the tasks in ROAD dataset. 
+Now that you have the dataset and are familiar with its structure, you are ready to train or test [ROAD-Waymo baseline](https://github.com/salmank255/ROAD_plus_plus_Baseline), which contains a dataloader class and evaluation scripts required for all the tasks in ROAD dataset. 
 
 You can find the **evaluation** functions in [modules/evaluation.py](https://github.com/salmank255/ROAD_plus_plus_Baseline/blob/master/modules/evaluation.py).
 
