@@ -16,9 +16,9 @@ The structure of our ROAD++ is exactly similar to our [ROAD dataset](https://git
 - **4.3M** and **4.2M** bounding box-level action and location labels.
 
 ## Attribution
-ROAD++ dataset is build upon [WAYMO Open Dataset](https://waymo.com/open/). If you find the original dataset useful in your work, please cite it using the citation that can be found [here](https://arxiv.org/pdf/1912.04838.pdf). 
+ROAD++ dataset was made using the [Waymo Open Dataset](https://waymo.com/open/), provided by Waymo LLC under license terms available at waymo.com/open.
 
-Similar to the original dataset [WAMO](https://waymo.com/privacy/), the ROAD++ dataset is licensed under a [Waymo Dataset License Agreement for Non-Commercial Use](https://waymo.com/open/terms/) “Non-commercial Purposes" means research, teaching, scientific publication and personal experimentation. Non-commercial Purposes include use of the Dataset to perform benchmarking for purposes of academic or applied research publication. Non-commercial Purposes does not include purposes primarily intended for or directed towards commercial advantage or monetary compensation, or purposes intended for or directed towards litigation, licensing, or enforcement, even in part. If you are interested in using the dataset for commercial purposes, please contact original creator [WAYMO Open Dataset](https://waymo.com/open/) for video content and [Fabio](https://cms.brookes.ac.uk/staff/FabioCuzzolin/) and [Salman](https://sites.google.com/view/salman-k) for event annotations.
+By downloading or using the ROAD++ dataset and/or the Waymo Open Dataset, you are agreeing to the terms of the [Waymo Open Dataset License Agreement for Non-Commercial Use](https://waymo.com/open/terms)—which includes a requirement that you only use the Waymo Open Dataset (or datasets built from it, such as the ROAD++ dataset) for noncommercial purposes. “Non-commercial Purposes" means research, teaching, scientific publication and personal experimentation. Non-commercial Purposes include use of the dataset to perform benchmarking for purposes of academic or applied research publication. Non-commercial Purposes does not include purposes primarily intended for or directed towards commercial advantage or monetary compensation, or purposes intended for or directed towards litigation, licensing, or enforcement, even in part. 
 
 
 ## Download
